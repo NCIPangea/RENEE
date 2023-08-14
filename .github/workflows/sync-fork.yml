@@ -25,7 +25,7 @@ jobs:
         upstream_sync_repo: CCBR/RENEE
 
         # Set test_mode true to run tests instead of the true action!!
-        test_mode: true
+        # test_mode: true
 
     - name: Timestamp
       run: date
