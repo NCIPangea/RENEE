@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'docs/**'
+  workflow_dispatch: # on button click
 
 jobs:
   deploy:
