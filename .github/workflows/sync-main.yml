@@ -10,5 +10,10 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
-          base: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Owner of the forked repository
+          owner: NCIPangea
+          # Branch to track
           head: main
+          # Branch to keep updated
+          base: main
